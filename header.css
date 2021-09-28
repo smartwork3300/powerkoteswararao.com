@@ -1,0 +1,56 @@
+/* nav-bar styles  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+  visibility: hidden;
+}
+a.nav-link{
+    color:#000;
+    text-transform: uppercase;
+    }
+    .navbar{
+    background-color: white;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    }
+    .navbar-brand img{
+    margin-left:90px;
+    }
+    .navbar-nav{
+    margin:auto;
+    }
+    .nav-item a{
+    margin-left: 50px;
+    margin-right: 20px;
+    }
+
+
+
+    /* mobile view css   */
+@media screen and (max-width: 480px) {
+    
+    .navigation{
+        visibility:visible;
+    
+    }
+
+    
+   
+  }
+
+  
+   /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navigation
+    {
+        visibility: visible;
+    }
+   
+ 
+    
+   } 
+
+ 
+   
