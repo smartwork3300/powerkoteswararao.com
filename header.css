@@ -48,7 +48,9 @@ a.nav-link{
         visibility: visible;
     }
    
- 
+ .nav-item a {
+      margin-left: 9px;
+  }
     
    } 
 
